@@ -11,6 +11,11 @@ public class NTGApplication extends Application
     public void onCreate()
     {
         super.onCreate();
-        LocationLibrary.initialiseLibrary(getBaseContext(), "com.app.newstogo");
+        LocationLibrary.initialiseLibrary(
+            getBaseContext(),
+            60 * 1000,
+            2 * 60 * 1000,
+            "com.app.newstogo"
+        );
     }
 }
