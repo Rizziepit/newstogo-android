@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+    <TextView android:paddingTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:paddingBottom="13dp"
+        android:textSize="13dp"
+        android:id="@+id/story_title"
+        android:text="Analysis: Qatar's foreign policy - the old and the new"
+        android:fontFamily="sans-serif"
+        android:scrollHorizontally="false"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:paddingBottom="16dp"
+        android:textSize="13dp"
+        android:id="@+id/story_meta"
+        android:fontFamily="sans-serif"
+        android:text="What: \nWhere: \nWhen:"
+        android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+    <View
+        android:layout_height="1dp"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:background="@android:color/white" />
+</LinearLayout>

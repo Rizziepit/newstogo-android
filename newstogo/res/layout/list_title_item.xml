@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+    <TextView android:paddingTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:paddingBottom="4dp"
+        android:textSize="14dp"
+        android:id="@+id/day"
+        android:text="Today"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif"
+        android:gravity="center" />
+    <View
+        android:layout_height="1dp"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:background="@android:color/white" />
+</LinearLayout>
+

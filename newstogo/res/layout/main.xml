@@ -3,45 +3,33 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:cacheColorHint="@android:color/black"
+    android:textColor="@android:color/white"
     >
-  <TextView android:id="@+id/location_title"
-    android:layout_width="fill_parent" android:layout_height="wrap_content" />
 
-  <TableLayout android:id="@+id/location_table"
-    android:layout_width="fill_parent" android:layout_height="wrap_content"
-    android:stretchColumns="1">
+  <include layout="@layout/header_list"/>
 
-    <TableRow>
-      <TextView android:layout_column="1" android:text="Timestamp"
-        android:padding="3dip" />
-      <TextView android:id="@+id/location_timestamp"
-        android:gravity="right" android:padding="3dip" />
-    </TableRow>
+  <ScrollView android:id="@+id/feed_scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
 
-    <TableRow>
-      <TextView android:layout_column="1" android:text="Latitude"
-        android:padding="3dip" />
-      <TextView android:id="@+id/location_latitude"
-        android:gravity="right" android:padding="3dip" />
-    </TableRow>
-    <TableRow>
-      <TextView android:layout_column="1" android:text="Longitude"
-        android:padding="3dip" />
-      <TextView android:id="@+id/location_longitude"
-        android:gravity="right" android:padding="3dip" />
-    </TableRow>
-    <TableRow>
-      <TextView android:layout_column="1" android:text="Accuracy"
-        android:padding="3dip" />
-      <TextView android:id="@+id/location_accuracy"
-        android:gravity="right" android:padding="3dip" />
-    </TableRow>
-    <TableRow>
-      <TextView android:layout_column="1" android:text="Provider"
-        android:padding="3dip" />
-      <TextView android:id="@+id/location_provider"
-        android:gravity="right" android:padding="3dip" />
-    </TableRow>
-    </TableLayout>
+    <LinearLayout android:id="@+id/scroll_content"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+        <include layout="@layout/list_title_item"/>
+        <include layout="@layout/list_item"/>
+        <include layout="@layout/list_title_item"/>
+        <include layout="@layout/list_item"/>
+        <include layout="@layout/list_title_item"/>
+        <include layout="@layout/list_item"/>
+        <include layout="@layout/list_title_item"/>
+        <include layout="@layout/list_item"/>
+    </LinearLayout>
+
+  </ScrollView>
+
 </LinearLayout>
-
