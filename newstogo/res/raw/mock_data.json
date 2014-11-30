@@ -1,0 +1,394 @@
+{
+    "stories": [
+        {
+            "feed": "al jazeera", 
+            "guid": "2014112661245358505", 
+            "id": "547aed3d92b4aca7b7ee79f2", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/israel-gun-guards-terrorise-east-jerusalem-2014112661245358505.html", 
+            "places": {
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                35.225, 
+                                31.7736
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Jerusalem, Jerusalem, IL"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-30T05:32:58", 
+            "summary": "Outsourcing security in East Jerusalem helps Israel abdicate responsibility for violations it authorises, analysts say.", 
+            "title": "Israel 'gun guards' terrorise East Jerusalem"
+        }, 
+        {
+            "feed": "al jazeera", 
+            "guid": "2014112811429972210", 
+            "id": "547aed3d92b4aca7b7ee7a00", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/fierce-fighting-rages-iraq-anbar-2014112811429972210.html", 
+            "places": {
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                43.3114, 
+                                33.4317
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Ramadie, Al Anbar, IQ"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-28T06:35:46", 
+            "summary": "Army says assault by ISIL on provincial capital Ramadi fended off amid plan to triple defence budget to fund war effort.", 
+            "title": "Fierce fighting rages in Iraq's Anbar"
+        }, 
+        {
+            "feed": "al jazeera", 
+            "guid": "2014112801026355872", 
+            "id": "547aed3d92b4aca7b7ee7a01", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/un-declares-emergency-gaza-over-floods-2014112801026355872.html", 
+            "places": {
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                34.4457, 
+                                31.5241
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Gaza City, Gaza, PS"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-28T01:42:57", 
+            "summary": "UN agency declares 'state of emergency' in Gaza City after two days of heavy rain cause flooding in besieged enclave.", 
+            "title": "UN declares emergency in Gaza over floods"
+        }, 
+        {
+            "feed": "al jazeera", 
+            "guid": "20141127143226147280", 
+            "id": "547aed3e92b4aca7b7ee7a04", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/report-syria-army-kills-dozens-rebels-20141127143226147280.html", 
+            "places": {
+                "country": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                39.056, 
+                                34.8148
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Syria"
+                    }
+                ], 
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                36.3133, 
+                                33.5192
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Damascus, Dimashq, SY"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-27T15:06:53", 
+            "summary": "State media says Syrian troops have killed nearly 50 fighters in an ambush in largely rebel-held village near Damascus.", 
+            "title": "Report: Syria army kills dozens of rebels"
+        }, 
+        {
+            "feed": "al jazeera", 
+            "guid": "20141127111420451850", 
+            "id": "547aed3e92b4aca7b7ee7a05", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/israel-shin-bet-says-hamas-plot-uncovered-20141127111420451850.html", 
+            "places": {
+                "country": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                35.2296, 
+                                31.9478
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Palestine"
+                    }
+                ], 
+                "state": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                35.2296, 
+                                31.9478
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "West Bank, PS"
+                    }
+                ], 
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                35.225, 
+                                31.7736
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Jerusalem, Jerusalem, IL"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-27T11:52:24", 
+            "summary": "Palestinian group yet to comment on alleged arrest of 30 members in the West Bank for planning attacks in Jerusalem.", 
+            "title": "Israel says Hamas attack plot foiled"
+        }, 
+        {
+            "feed": "al jazeera", 
+            "guid": "20141126185411270174", 
+            "id": "547aed3e92b4aca7b7ee7a0c", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/israel-strips-attacker-widow-residency-20141126185411270174.html", 
+            "places": {
+                "country": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                35.3612, 
+                                31.3893
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Israel"
+                    }
+                ], 
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                35.225, 
+                                31.7736
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Jerusalem, Jerusalem, IL"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-26T20:00:47", 
+            "summary": "Israel revokes Nadia Abu Jamal's residency after her husband's involvement in attack on West Jerusalem synagogue.", 
+            "title": "Israel strips attacker's widow of residency"
+        }, 
+        {
+            "feed": "al jazeera", 
+            "guid": "2014112542629330515", 
+            "id": "547aed3e92b4aca7b7ee7a1b", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/deadly-building-collapse-hits-cairo-suburb-2014112542629330515.html", 
+            "places": {
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                31.2486, 
+                                30.0499
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Cairo, Cairo, EG"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-25T16:23:14", 
+            "summary": "At least 17 killed and several feared trapped after residential building falls in western Cairo district of Matariya.", 
+            "title": "Deadly building collapse hits Cairo suburb"
+        }, 
+        {
+            "feed": "al jazeera", 
+            "guid": "201411239830704217", 
+            "id": "547aed3f92b4aca7b7ee7a35", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/deadly-car-bomb-hits-iraq-bus-terminal-201411239830704217.html", 
+            "places": {
+                "state": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                45.1637, 
+                                34.0503
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Diyala, IQ"
+                    }
+                ], 
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                44.3939, 
+                                33.3386
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Baghdad, Baghdad, IQ"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-23T09:57:34", 
+            "summary": "At least five people killed in blast in town of Yusufiyah south of Baghdad, as army battles ISIL fighters in Diyala.", 
+            "title": "Deadly car bomb hits Iraq bus terminal"
+        }, 
+        {
+            "feed": "al jazeera", 
+            "guid": "20141120223446598325", 
+            "id": "547aed3f92b4aca7b7ee7a44", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/anger-over-israel-mayor-ban-arab-workers-20141120223446598325.html", 
+            "places": {
+                "country": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                35.3612, 
+                                31.3893
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Israel"
+                    }
+                ], 
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                34.556, 
+                                31.6695
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Ashkelon, Southern, IL"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-20T23:05:29", 
+            "summary": "Ashkelon mayor's decision to bar Israeli-Arab construction workers decried as racist and unacceptable.", 
+            "title": "Anger over Israel mayor's ban on Arab workers"
+        }, 
+        {
+            "feed": "al jazeera", 
+            "guid": "2014112916534850806", 
+            "id": "547aed3d92b4aca7b7ee79f5", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/ball-kills-cricket-umpire-israel-2014112916534850806.html", 
+            "places": {
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                34.6489, 
+                                31.7988
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Ashdod, Central, IL"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-29T17:47:05", 
+            "summary": "Umpire standing in cricket match in city of Ashdod dies after being hit in the face by ball.", 
+            "title": "Cricket ball kills umpire in Israel"
+        }, 
+        {
+            "feed": "al jazeera", 
+            "guid": "2014112754242480959", 
+            "id": "547aed3e92b4aca7b7ee7a06", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/want-kick-me-out-jerusalem-2014112754242480959.html", 
+            "places": {
+                "country": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                35.3612, 
+                                31.3893
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Israel"
+                    }
+                ], 
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                35.225, 
+                                31.7736
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Jerusalem, Jerusalem, IL"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-27T11:08:47", 
+            "summary": "Rights groups slam Israel's decision to strip families of attackers of their Jerusalem residency.", 
+            "title": "'They want to kick me out of Jerusalem'"
+        }, 
+        {
+            "feed": "al jazeera", 
+            "guid": "20141126141228981157", 
+            "id": "547aed3e92b4aca7b7ee7a10", 
+            "link": "http://www.aljazeera.com/news/middleeast/2014/11/egypt-temporarily-opens-gaza-border-crossing-20141126141228981157.html", 
+            "places": {
+                "town": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                33.8042, 
+                                31.1278
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Al Arish, North Sinai, EG"
+                    }, 
+                    {
+                        "location": {
+                            "coordinates": [
+                                31.2486, 
+                                30.0499
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Cairo, Cairo, EG"
+                    }, 
+                    {
+                        "location": {
+                            "coordinates": [
+                                34.2536, 
+                                31.2805
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Rafah, Gaza, PS"
+                    }, 
+                    {
+                        "location": {
+                            "coordinates": [
+                                124.997, 
+                                11.4086
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "San Pascual, Eastern Visayas, PH"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-26T15:38:40", 
+            "summary": "Rafah crossing reopened for two days as Cairo reports another attack on Egyptian troops in border town of El-Arish.", 
+            "title": "Egypt temporarily opens Gaza border crossing"
+        }
+    ]
+}

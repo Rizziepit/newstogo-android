@@ -10,6 +10,10 @@
     <uses-feature android:name="android.hardware.location" android:required="true" />
     <uses-feature android:name="android.hardware.location.gps" android:required="false" />
     <!-- end -->
+
+    <!-- start NTG service configuration -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- end -->
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name="com.app.newstogo.NTGApplication">
         <activity android:name="NTGActivity"
                   android:label="@string/app_name">
@@ -17,6 +21,9 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="NTGRedirectActivity"
+                  android:label="@string/app_name">
         </activity>
 
         <!-- start Little Fluffy Location Library configuration -->
@@ -29,7 +36,7 @@
         <receiver android:name="com.littlefluffytoys.littlefluffylocationlibrary.PassiveLocationChangedReceiver" android:exported="true" />
         <!-- end -->
 
-        <!-- start NTG service that sends updates to server -->
+        <!-- start NTG service configuration -->
         <service android:name="com.app.newstogo.NTGService" />
         <!-- end -->
     </application>

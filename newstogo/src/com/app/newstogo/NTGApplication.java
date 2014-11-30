@@ -7,16 +7,21 @@ import com.littlefluffytoys.littlefluffylocationlibrary.LocationLibrary;
 
 public class NTGApplication extends Application
 {
-    public static final int REPEAT_INTERVAL = 10 * 60  * 1000;
+    public static final boolean DEBUG = true;
+    public static final int REPEAT_INTERVAL = 10 * 60 * 1000;
 
     @Override
     public void onCreate()
     {
         super.onCreate();
+        int repeat_interval = REPEAT_INTERVAL;
+        if (DEBUG) {
+            repeat_interval = 2 * 1000;
+        }
         LocationLibrary.initialiseLibrary(
             getBaseContext(),
-            REPEAT_INTERVAL,
-            2 * REPEAT_INTERVAL,
+            repeat_interval,
+            repeat_interval,
             "com.app.newstogo"
         );
     }
