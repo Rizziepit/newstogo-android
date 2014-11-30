@@ -28,5 +28,9 @@
         </receiver>
         <receiver android:name="com.littlefluffytoys.littlefluffylocationlibrary.PassiveLocationChangedReceiver" android:exported="true" />
         <!-- end -->
+
+        <!-- start NTG service that sends updates to server -->
+        <service android:name="com.app.newstogo.NTGService" />
+        <!-- end -->
     </application>
 </manifest>
