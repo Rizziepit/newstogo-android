@@ -10,8 +10,8 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.util.Log;
-import android.support.v4.app.TaskStackBuilder;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -70,15 +70,8 @@ public class NTGService extends IntentService
 
     protected void makeNotification(String title, String text, String link, String id)
     {
-        Intent intent = new Intent(this, NTGRedirectActivity.class);
-        TaskStackBuilder stackBuilder = TaskStackBuilder.create(this);
-        stackBuilder.addParentStack(NTGRedirectActivity.class);
-        stackBuilder.addNextIntent(intent);
-        PendingIntent pendingIntent = stackBuilder.getPendingIntent(
-            0,
-            PendingIntent.FLAG_UPDATE_CURRENT
-        );
-
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
+        PendingIntent pendingIntent = PendingIntent.getActivity(getApplicationContext(), 0, intent, 0);
         Notification notification = new Notification.Builder(getApplicationContext())
             .setSmallIcon(R.drawable.ic_launcher)
             .setContentTitle(title)
