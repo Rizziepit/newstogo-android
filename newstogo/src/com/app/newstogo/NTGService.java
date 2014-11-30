@@ -7,9 +7,12 @@ import android.app.IntentService;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.Cursor;
 import android.net.Uri;
 import android.util.Log;
 
@@ -59,13 +62,35 @@ public class NTGService extends IntentService
         JSONArray stories = new JSONObject(all).getJSONArray("stories");
         for (int i = 0; i < 5; i++) {
             JSONObject story = stories.getJSONObject(i);
-            String link = story.getString("link");
-            String summary = story.getString("summary");
-            String title = story.getString("title");
             String id = story.getString("id");
-            makeNotification(title, summary, link, id);
-            Log.v(TAG, title);
+            if (isNewStory(id)) {
+                String link = story.getString("link");
+                String summary = story.getString("summary");
+                String title = story.getString("title");
+                makeNotification(title, summary, link, id);
+                saveStory(id, story);
+                Log.v(TAG, title);
+            }
         }
+    }
+
+    protected boolean isNewStory(String id)
+    {
+        SQLiteDatabase db = new NTGStorageHelper(getApplicationContext()).getReadableDatabase();
+        Cursor cursor = db.query("stories", new String[]{"id"}, "id = ?", new String[]{id}, null, null, null);
+        boolean result = cursor.getCount() == 0;
+        cursor.close();
+        return result;
+    }
+
+    protected void saveStory(String id, JSONObject story)
+    {
+        SQLiteDatabase db = new NTGStorageHelper(getApplicationContext()).getWritableDatabase();
+        ContentValues content = new ContentValues(2);
+        content.put("id", id);
+        content.put("data", story.toString());
+        long result = db.insert("stories", null, content);
+        Log.v(TAG, "Inserted story " + result);
     }
 
     protected void makeNotification(String title, String text, String link, String id)
