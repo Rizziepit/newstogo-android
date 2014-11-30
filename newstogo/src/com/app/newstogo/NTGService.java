@@ -17,6 +17,7 @@ import android.net.Uri;
 import android.util.Log;
 
 import java.io.*;
+import java.lang.Math;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.MalformedURLException;
@@ -33,20 +34,22 @@ public class NTGService extends IntentService
     protected void onHandleIntent(Intent intent)
     {
         LocationInfo latestInfo = new LocationInfo(getBaseContext());
+        latestInfo.lastLat = 40.7038f;
+        latestInfo.lastLong = -73.8317f;
         Log.v(TAG, "Latest location " + latestInfo.toString());
 
         if (latestInfo.lastAccuracy <= RADIUS) {
             try {
                 URL url = getQueryURL(latestInfo);
                 Log.v(TAG, "Query: " + url);
-                /*HttpURLConnection connection = (HttpURLConnection) (getQueryURL(latestInfo).openConnection());
+                HttpURLConnection connection = (HttpURLConnection) (getQueryURL(latestInfo).openConnection());
                 try {
                     InputStream in = new BufferedInputStream(connection.getInputStream());
                     processAPIResponse(in);
                 }
                 catch (Exception e) {Log.e(TAG, e.toString());}
-                finally {connection.disconnect();}*/
-                processAPIResponse(getMockDataStream());
+                finally {connection.disconnect();}
+                //processAPIResponse(getMockDataStream());
             }
             catch (Exception e) {Log.e(TAG, e.toString());}
         }
@@ -60,7 +63,7 @@ public class NTGService extends IntentService
         while ((line = reader.readLine()) != null)
             all += line;
         JSONArray stories = new JSONObject(all).getJSONArray("stories");
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < Math.min(stories.length(), 3); i++) {
             JSONObject story = stories.getJSONObject(i);
             String id = story.getString("id");
             if (isNewStory(id)) {
@@ -103,6 +106,7 @@ public class NTGService extends IntentService
             .setContentText(text)
             .setContentIntent(pendingIntent)
             .build();
+        notification.flags |= Notification.FLAG_AUTO_CANCEL;
         NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         manager.notify(id, 0, notification);
         Log.v(TAG, "create notification");
@@ -119,6 +123,6 @@ public class NTGService extends IntentService
 
     protected URL getQueryURL(LocationInfo location) throws MalformedURLException
     {
-        return new URL(ENDPOINT_URL + "?latitude=" + location.lastLat + "&longitude=" + location.lastLong + "&level=suburb&radius=2000");
+        return new URL(ENDPOINT_URL + "?limit=5&latitude=" + location.lastLat + "&longitude=" + location.lastLong + "&level=suburb&radius=2000");
     }
 }
