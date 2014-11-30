@@ -7,7 +7,7 @@ import com.littlefluffytoys.littlefluffylocationlibrary.LocationLibrary;
 
 public class NTGApplication extends Application
 {
-    public static final boolean DEBUG = true;
+    public static final boolean DEBUG = false;
     public static final int REPEAT_INTERVAL = 10 * 60 * 1000;
 
     @Override

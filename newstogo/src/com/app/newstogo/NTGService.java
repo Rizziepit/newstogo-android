@@ -71,7 +71,7 @@ public class NTGService extends IntentService
                 String title = story.getString("title");
                 String pubTime = story.getString("pub_date").substring(11, 16);
                 makeNotification(title, "About " + placeName + " at " + pubTime, link, id);
-                //saveStory(id, story);
+                saveStory(id, story);
                 Log.v(TAG, title);
             }
         }
