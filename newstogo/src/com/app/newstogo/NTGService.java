@@ -34,28 +34,26 @@ public class NTGService extends IntentService
     protected void onHandleIntent(Intent intent)
     {
         LocationInfo latestInfo = new LocationInfo(getBaseContext());
-        latestInfo.lastLat = 40.7038f;
-        latestInfo.lastLong = -73.8317f;
         Log.v(TAG, "Latest location " + latestInfo.toString());
 
         if (latestInfo.lastAccuracy <= RADIUS) {
             try {
                 URL url = getQueryURL(latestInfo);
                 Log.v(TAG, "Query: " + url);
-                HttpURLConnection connection = (HttpURLConnection) (getQueryURL(latestInfo).openConnection());
+                /*HttpURLConnection connection = (HttpURLConnection) (getQueryURL(latestInfo).openConnection());
                 try {
                     InputStream in = new BufferedInputStream(connection.getInputStream());
-                    processAPIResponse(in);
+                    processAPIResponse(in, latestInfo);
                 }
                 catch (Exception e) {Log.e(TAG, e.toString());}
-                finally {connection.disconnect();}
-                //processAPIResponse(getMockDataStream());
+                finally {connection.disconnect();}*/
+                processAPIResponse(getMockDataStream(), latestInfo);
             }
             catch (Exception e) {Log.e(TAG, e.toString());}
         }
     }
 
-    protected void processAPIResponse(InputStream in) throws IOException, JSONException
+    protected void processAPIResponse(InputStream in, LocationInfo location) throws IOException, JSONException
     {
         BufferedReader reader = new BufferedReader(new InputStreamReader(in));
         String line;
@@ -68,12 +66,41 @@ public class NTGService extends IntentService
             String id = story.getString("id");
             if (isNewStory(id)) {
                 String link = story.getString("link");
-                String summary = story.getString("summary");
+                JSONArray suburbs = story.getJSONObject("places").getJSONArray("suburb");
+                String placeName = getClosestPlaceName(suburbs, location).split(",", 2)[0];
                 String title = story.getString("title");
-                makeNotification(title, summary, link, id);
-                saveStory(id, story);
+                String pubTime = story.getString("pub_date").substring(11, 16);
+                makeNotification(title, "About " + placeName + " at " + pubTime, link, id);
+                //saveStory(id, story);
                 Log.v(TAG, title);
             }
+        }
+    }
+
+    protected String getClosestPlaceName(JSONArray places, LocationInfo location) throws JSONException
+    {
+        if (places.length() == 1) {
+            return places.getJSONObject(0).getString("name");
+        }
+        else {
+            // just check straight line distance
+            double bestDist2 = 100000;
+            String bestName = null;
+            for (int i = 0; i < places.length(); i++) {
+                JSONArray coords = places.getJSONObject(i)
+                    .getJSONObject("location")
+                    .getJSONArray("coordinates");
+                double x1 = coords.getDouble(0);
+                double y1 = coords.getDouble(1);
+                double x2 = location.lastLong;
+                double y2 = location.lastLat;
+                double dist2 = Math.pow((x1 - x2), 2.0) + Math.pow((y1 - y2), 2.0);
+                if (dist2 < bestDist2) {
+                    bestDist2 = dist2;
+                    bestName = places.getJSONObject(i).getString("name");
+                }
+            }
+            return bestName;
         }
     }
 

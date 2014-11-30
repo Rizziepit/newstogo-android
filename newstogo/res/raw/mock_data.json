@@ -1,394 +1,246 @@
 {
     "stories": [
         {
-            "feed": "al jazeera", 
-            "guid": "2014112661245358505", 
-            "id": "547aed3d92b4aca7b7ee79f2", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/israel-gun-guards-terrorise-east-jerusalem-2014112661245358505.html", 
+            "feed": "qchron", 
+            "guid": "http://www.qchron.com/search/tncms-asset-cb6d1aa8-770b-11e4-9926-f7892553c708", 
+            "id": "547aed5992b4aca7b7ee7a57", 
+            "link": "http://www.qchron.com/editions/south-ozone-park-house-explodes-on-thanksgiving-day/article_cb6d1aa8-770b-11e4-9926-f7892553c708.html", 
             "places": {
-                "town": [
+                "suburb": [
                     {
                         "location": {
                             "coordinates": [
-                                35.225, 
-                                31.7736
+                                -73.8241, 
+                                40.6754
                             ], 
                             "type": "Point"
                         }, 
-                        "name": "Jerusalem, Jerusalem, IL"
+                        "name": "South Ozone Park, New York, NY, US"
                     }
                 ]
             }, 
-            "pub_date": "2014-11-30T05:32:58", 
-            "summary": "Outsourcing security in East Jerusalem helps Israel abdicate responsibility for violations it authorises, analysts say.", 
-            "title": "Israel 'gun guards' terrorise East Jerusalem"
+            "pub_date": "2014-11-28T14:35:00", 
+            "summary": "A South Ozone Park house was leveled following an explosion on Thanksgiving Day, according to a city Fire Department spokesman.At about 1:45 p.m., fire personnel were called to 107-55 108th St. in Sou", 
+            "title": "South Ozone Park house explodes on Thanksgiving Day"
         }, 
         {
-            "feed": "al jazeera", 
-            "guid": "2014112811429972210", 
-            "id": "547aed3d92b4aca7b7ee7a00", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/fierce-fighting-rages-iraq-anbar-2014112811429972210.html", 
+            "feed": "qchron", 
+            "guid": "http://www.qchron.com/search/tncms-asset-ee6c52bc-769d-11e4-9f63-2fa2a7262ada", 
+            "id": "547aed5992b4aca7b7ee7a58", 
+            "link": "http://www.qchron.com/editions/howard-beach-man-found/article_ee6c52bc-769d-11e4-9f63-2fa2a7262ada.html", 
             "places": {
-                "town": [
+                "suburb": [
                     {
                         "location": {
                             "coordinates": [
-                                43.3114, 
-                                33.4317
+                                -73.8462, 
+                                40.6537
                             ], 
                             "type": "Point"
                         }, 
-                        "name": "Ramadie, Al Anbar, IQ"
+                        "name": "Howard Beach, New York, NY, US"
                     }
                 ]
             }, 
-            "pub_date": "2014-11-28T06:35:46", 
-            "summary": "Army says assault by ISIL on provincial capital Ramadi fended off amid plan to triple defence budget to fund war effort.", 
-            "title": "Fierce fighting rages in Iraq's Anbar"
+            "pub_date": "2014-11-27T22:29:00", 
+            "summary": "A Howard Beach man who had been missing since Wednesday night has been found, according to authorities.", 
+            "title": "Howard Beach man found"
         }, 
         {
-            "feed": "al jazeera", 
-            "guid": "2014112801026355872", 
-            "id": "547aed3d92b4aca7b7ee7a01", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/un-declares-emergency-gaza-over-floods-2014112801026355872.html", 
+            "feed": "qchron", 
+            "guid": "http://www.qchron.com/search/tncms-asset-3231ed53-e357-5ecb-a742-7963b0d04391", 
+            "id": "547aed5992b4aca7b7ee7a5b", 
+            "link": "http://www.qchron.com/editions/south/howard-beach-biz-gets-robbed/article_3231ed53-e357-5ecb-a742-7963b0d04391.html", 
             "places": {
-                "town": [
+                "suburb": [
                     {
                         "location": {
                             "coordinates": [
-                                34.4457, 
-                                31.5241
+                                -73.8462, 
+                                40.6537
                             ], 
                             "type": "Point"
                         }, 
-                        "name": "Gaza City, Gaza, PS"
+                        "name": "Howard Beach, New York, NY, US"
                     }
                 ]
             }, 
-            "pub_date": "2014-11-28T01:42:57", 
-            "summary": "UN agency declares 'state of emergency' in Gaza City after two days of heavy rain cause flooding in besieged enclave.", 
-            "title": "UN declares emergency in Gaza over floods"
+            "pub_date": "2014-11-26T15:30:00", 
+            "summary": "A Verizon Wireless store at 159-20 Cross Bay Blvd. in Howard Beach was robbed at gunpoint on early Saturday morning, according to the business owner.Jodi, the owner of the Verizon store, who did not g", 
+            "title": "Howard Beach biz gets robbed"
         }, 
         {
-            "feed": "al jazeera", 
-            "guid": "20141127143226147280", 
-            "id": "547aed3e92b4aca7b7ee7a04", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/report-syria-army-kills-dozens-rebels-20141127143226147280.html", 
+            "feed": "qchron", 
+            "guid": "http://www.qchron.com/search/tncms-asset-2796cc15-6ae6-5314-84ae-940d7ec81271", 
+            "id": "547aed5992b4aca7b7ee7a6e", 
+            "link": "http://www.qchron.com/editions/south/road-vows-broken-in-hamilton-beach/article_2796cc15-6ae6-5314-84ae-940d7ec81271.html", 
+            "places": {
+                "suburb": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                -73.8284, 
+                                40.6522
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Hamilton Beach, New York, NY, US"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-26T15:30:00", 
+            "summary": "Residents of Hamilton Beach are taking their fight to have a street in the community repaired to the highest level of City Hall.Roger Gendron, president of the New Hamilton Beach Civic Association, ha", 
+            "title": "Road, vows broken in Hamilton Beach"
+        }, 
+        {
+            "feed": "qchron", 
+            "guid": "http://www.qchron.com/search/tncms-asset-5b578f5b-25a8-5624-b60f-e116f57c2952", 
+            "id": "547aed5992b4aca7b7ee7a7c", 
+            "link": "http://www.qchron.com/editions/south/day-care-wins-queens-award/article_5b578f5b-25a8-5624-b60f-e116f57c2952.html", 
+            "places": {
+                "suburb": [
+                    {
+                        "location": {
+                            "coordinates": [
+                                -73.8462, 
+                                40.6537
+                            ], 
+                            "type": "Point"
+                        }, 
+                        "name": "Howard Beach, New York, NY, US"
+                    }
+                ]
+            }, 
+            "pub_date": "2014-11-20T15:30:00", 
+            "summary": "A Howard Beach-based day care facility has been honored as one of the top businesses in the borough for the second consecutive year.Reach for the STARS! Day Care, located at 156-18 96 St., was awarded", 
+            "title": "Day care wins Queens award"
+        }, 
+        {
+            "feed": "qchron", 
+            "guid": "http://www.qchron.com/search/tncms-asset-1cb9de9b-c777-5fb0-a03c-7b1d436189a6", 
+            "id": "547aed5992b4aca7b7ee7a81", 
+            "link": "http://www.qchron.com/editions/south/authentic-greek-cuisine-in-howard-beach/article_1cb9de9b-c777-5fb0-a03c-7b1d436189a6.html", 
             "places": {
                 "country": [
                     {
                         "location": {
                             "coordinates": [
-                                39.056, 
-                                34.8148
+                                21.8456, 
+                                39.0724
                             ], 
                             "type": "Point"
                         }, 
-                        "name": "Syria"
+                        "name": "Greece"
                     }
                 ], 
-                "town": [
+                "suburb": [
                     {
                         "location": {
                             "coordinates": [
-                                36.3133, 
-                                33.5192
+                                -73.8462, 
+                                40.6537
                             ], 
                             "type": "Point"
                         }, 
-                        "name": "Damascus, Dimashq, SY"
+                        "name": "Howard Beach, New York, NY, US"
                     }
                 ]
             }, 
-            "pub_date": "2014-11-27T15:06:53", 
-            "summary": "State media says Syrian troops have killed nearly 50 fighters in an ambush in largely rebel-held village near Damascus.", 
-            "title": "Report: Syria army kills dozens of rebels"
+            "pub_date": "2014-11-20T15:30:00", 
+            "summary": "When one thinks about food options in Howard Beach, Greek cuisine is typically not on the top of that list.But residents of the neighborhood have been flocking to Greek Grill at 156-40 Cross Bay Blvd.", 
+            "title": "Authentic Greek cuisine in Howard Beach"
         }, 
         {
-            "feed": "al jazeera", 
-            "guid": "20141127111420451850", 
-            "id": "547aed3e92b4aca7b7ee7a05", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/israel-shin-bet-says-hamas-plot-uncovered-20141127111420451850.html", 
+            "feed": "qchron", 
+            "guid": "http://www.qchron.com/search/tncms-asset-a2e9857b-b8af-5ff4-a135-08c7a1f917a3", 
+            "id": "547aed5992b4aca7b7ee7a82", 
+            "link": "http://www.qchron.com/editions/south/celebrating-years-of-happiness/article_a2e9857b-b8af-5ff4-a135-08c7a1f917a3.html", 
             "places": {
-                "country": [
+                "suburb": [
                     {
                         "location": {
                             "coordinates": [
-                                35.2296, 
-                                31.9478
+                                -73.8462, 
+                                40.6537
                             ], 
                             "type": "Point"
                         }, 
-                        "name": "Palestine"
-                    }
-                ], 
-                "state": [
-                    {
-                        "location": {
-                            "coordinates": [
-                                35.2296, 
-                                31.9478
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "West Bank, PS"
-                    }
-                ], 
-                "town": [
-                    {
-                        "location": {
-                            "coordinates": [
-                                35.225, 
-                                31.7736
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "Jerusalem, Jerusalem, IL"
+                        "name": "Howard Beach, New York, NY, US"
                     }
                 ]
             }, 
-            "pub_date": "2014-11-27T11:52:24", 
-            "summary": "Palestinian group yet to comment on alleged arrest of 30 members in the West Bank for planning attacks in Jerusalem.", 
-            "title": "Israel says Hamas attack plot foiled"
+            "pub_date": "2014-11-20T15:30:00", 
+            "summary": "Howard Beach resident Catherine Lumetta\u2019s birthday isn\u2019t until Nov. 21, but on Tuesday the staff of the Howard Beach Senior Center and her family gathered to celebrate her 104th.\u201cMy beautiful children", 
+            "title": "Celebrating 104 years of happiness"
         }, 
         {
-            "feed": "al jazeera", 
-            "guid": "20141126185411270174", 
-            "id": "547aed3e92b4aca7b7ee7a0c", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/israel-strips-attacker-widow-residency-20141126185411270174.html", 
+            "feed": "qchron", 
+            "guid": "http://www.qchron.com/search/tncms-asset-e4d63871-7559-5987-8293-fefeaa934de5", 
+            "id": "547aed5992b4aca7b7ee7a87", 
+            "link": "http://www.qchron.com/editions/south/ex-howard-beach-resident-pens-book/article_e4d63871-7559-5987-8293-fefeaa934de5.html", 
             "places": {
-                "country": [
+                "suburb": [
                     {
                         "location": {
                             "coordinates": [
-                                35.3612, 
-                                31.3893
+                                -73.8462, 
+                                40.6537
                             ], 
                             "type": "Point"
                         }, 
-                        "name": "Israel"
-                    }
-                ], 
-                "town": [
-                    {
-                        "location": {
-                            "coordinates": [
-                                35.225, 
-                                31.7736
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "Jerusalem, Jerusalem, IL"
+                        "name": "Howard Beach, New York, NY, US"
                     }
                 ]
             }, 
-            "pub_date": "2014-11-26T20:00:47", 
-            "summary": "Israel revokes Nadia Abu Jamal's residency after her husband's involvement in attack on West Jerusalem synagogue.", 
-            "title": "Israel strips attacker's widow of residency"
+            "pub_date": "2014-11-20T15:30:00", 
+            "summary": "Joseph Parenti had just filled up his car with gas when he was on his way back to his Howard Beach home on Dec. 5, 1988.As he was driving down Cross Bay Boulevard a man, who was being chased by cops,", 
+            "title": "Ex-Howard Beach resident pens book"
         }, 
         {
-            "feed": "al jazeera", 
-            "guid": "2014112542629330515", 
-            "id": "547aed3e92b4aca7b7ee7a1b", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/deadly-building-collapse-hits-cairo-suburb-2014112542629330515.html", 
+            "feed": "qchron", 
+            "guid": "http://www.qchron.com/search/tncms-asset-e00f38e5-c5da-5be8-bade-510053f8e238", 
+            "id": "547aed5992b4aca7b7ee7a9e", 
+            "link": "http://www.qchron.com/editions/south/nypd-helps-out-nyfac/article_e00f38e5-c5da-5be8-bade-510053f8e238.html", 
             "places": {
-                "town": [
+                "suburb": [
                     {
                         "location": {
                             "coordinates": [
-                                31.2486, 
-                                30.0499
+                                -73.8462, 
+                                40.6537
                             ], 
                             "type": "Point"
                         }, 
-                        "name": "Cairo, Cairo, EG"
+                        "name": "Howard Beach, New York, NY, US"
                     }
                 ]
             }, 
-            "pub_date": "2014-11-25T16:23:14", 
-            "summary": "At least 17 killed and several feared trapped after residential building falls in western Cairo district of Matariya.", 
-            "title": "Deadly building collapse hits Cairo suburb"
+            "pub_date": "2014-11-13T15:30:00", 
+            "summary": "Police Officer Rafael Lugo II of the 106th Precinct along with his father, Rafael Lugo Sr., last Thursday presented a $750 check to Howard Beach-based New York Families for Autistic Children.\u201cWe are s", 
+            "title": "NYPD helps out NYFAC"
         }, 
         {
-            "feed": "al jazeera", 
-            "guid": "201411239830704217", 
-            "id": "547aed3f92b4aca7b7ee7a35", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/deadly-car-bomb-hits-iraq-bus-terminal-201411239830704217.html", 
+            "feed": "qchron", 
+            "guid": "http://www.qchron.com/search/tncms-asset-70160895-a661-54b4-b32d-eae97ed24ec0", 
+            "id": "547aed5992b4aca7b7ee7aae", 
+            "link": "http://www.qchron.com/editions/south/robbers-tied-up-victims-cops/article_70160895-a661-54b4-b32d-eae97ed24ec0.html", 
             "places": {
-                "state": [
+                "suburb": [
                     {
                         "location": {
                             "coordinates": [
-                                45.1637, 
-                                34.0503
+                                -73.8462, 
+                                40.6537
                             ], 
                             "type": "Point"
                         }, 
-                        "name": "Diyala, IQ"
-                    }
-                ], 
-                "town": [
-                    {
-                        "location": {
-                            "coordinates": [
-                                44.3939, 
-                                33.3386
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "Baghdad, Baghdad, IQ"
+                        "name": "Howard Beach, New York, NY, US"
                     }
                 ]
             }, 
-            "pub_date": "2014-11-23T09:57:34", 
-            "summary": "At least five people killed in blast in town of Yusufiyah south of Baghdad, as army battles ISIL fighters in Diyala.", 
-            "title": "Deadly car bomb hits Iraq bus terminal"
-        }, 
-        {
-            "feed": "al jazeera", 
-            "guid": "20141120223446598325", 
-            "id": "547aed3f92b4aca7b7ee7a44", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/anger-over-israel-mayor-ban-arab-workers-20141120223446598325.html", 
-            "places": {
-                "country": [
-                    {
-                        "location": {
-                            "coordinates": [
-                                35.3612, 
-                                31.3893
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "Israel"
-                    }
-                ], 
-                "town": [
-                    {
-                        "location": {
-                            "coordinates": [
-                                34.556, 
-                                31.6695
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "Ashkelon, Southern, IL"
-                    }
-                ]
-            }, 
-            "pub_date": "2014-11-20T23:05:29", 
-            "summary": "Ashkelon mayor's decision to bar Israeli-Arab construction workers decried as racist and unacceptable.", 
-            "title": "Anger over Israel mayor's ban on Arab workers"
-        }, 
-        {
-            "feed": "al jazeera", 
-            "guid": "2014112916534850806", 
-            "id": "547aed3d92b4aca7b7ee79f5", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/ball-kills-cricket-umpire-israel-2014112916534850806.html", 
-            "places": {
-                "town": [
-                    {
-                        "location": {
-                            "coordinates": [
-                                34.6489, 
-                                31.7988
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "Ashdod, Central, IL"
-                    }
-                ]
-            }, 
-            "pub_date": "2014-11-29T17:47:05", 
-            "summary": "Umpire standing in cricket match in city of Ashdod dies after being hit in the face by ball.", 
-            "title": "Cricket ball kills umpire in Israel"
-        }, 
-        {
-            "feed": "al jazeera", 
-            "guid": "2014112754242480959", 
-            "id": "547aed3e92b4aca7b7ee7a06", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/want-kick-me-out-jerusalem-2014112754242480959.html", 
-            "places": {
-                "country": [
-                    {
-                        "location": {
-                            "coordinates": [
-                                35.3612, 
-                                31.3893
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "Israel"
-                    }
-                ], 
-                "town": [
-                    {
-                        "location": {
-                            "coordinates": [
-                                35.225, 
-                                31.7736
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "Jerusalem, Jerusalem, IL"
-                    }
-                ]
-            }, 
-            "pub_date": "2014-11-27T11:08:47", 
-            "summary": "Rights groups slam Israel's decision to strip families of attackers of their Jerusalem residency.", 
-            "title": "'They want to kick me out of Jerusalem'"
-        }, 
-        {
-            "feed": "al jazeera", 
-            "guid": "20141126141228981157", 
-            "id": "547aed3e92b4aca7b7ee7a10", 
-            "link": "http://www.aljazeera.com/news/middleeast/2014/11/egypt-temporarily-opens-gaza-border-crossing-20141126141228981157.html", 
-            "places": {
-                "town": [
-                    {
-                        "location": {
-                            "coordinates": [
-                                33.8042, 
-                                31.1278
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "Al Arish, North Sinai, EG"
-                    }, 
-                    {
-                        "location": {
-                            "coordinates": [
-                                31.2486, 
-                                30.0499
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "Cairo, Cairo, EG"
-                    }, 
-                    {
-                        "location": {
-                            "coordinates": [
-                                34.2536, 
-                                31.2805
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "Rafah, Gaza, PS"
-                    }, 
-                    {
-                        "location": {
-                            "coordinates": [
-                                124.997, 
-                                11.4086
-                            ], 
-                            "type": "Point"
-                        }, 
-                        "name": "San Pascual, Eastern Visayas, PH"
-                    }
-                ]
-            }, 
-            "pub_date": "2014-11-26T15:38:40", 
-            "summary": "Rafah crossing reopened for two days as Cairo reports another attack on Egyptian troops in border town of El-Arish.", 
-            "title": "Egypt temporarily opens Gaza border crossing"
+            "pub_date": "2014-11-13T15:30:00", 
+            "summary": "Two men tied up and robbed six employees of Liberty Travel in Howard Beach last Friday and made off with close to $700 in cash, according to police.The NYPD said two black males entered the business,", 
+            "title": "Robbers tied up victims: cops"
         }
     ]
 }

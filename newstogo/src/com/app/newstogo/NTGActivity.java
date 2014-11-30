@@ -19,10 +19,14 @@ public class NTGActivity extends Activity
         AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
         Intent alarmIntent = new Intent(this, NTGService.class);
         PendingIntent pending = PendingIntent.getService(this, 0, alarmIntent, 0);
+        int repeat_interval = NTGApplication.REPEAT_INTERVAL;
+        if (NTGApplication.DEBUG) {
+            repeat_interval = 10 * 1000;
+        }
         alarmManager.setInexactRepeating(
             AlarmManager.ELAPSED_REALTIME_WAKEUP,
             SystemClock.elapsedRealtime(),
-            NTGApplication.REPEAT_INTERVAL,
+            repeat_interval,
             pending
         );
     }
