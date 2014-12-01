@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.text.Html;
@@ -17,7 +18,7 @@ import android.util.Log;
 
 import org.json.*;
 
-public class NTGActivity extends Activity
+public class NTGActivity extends Activity implements View.OnClickListener
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -40,7 +41,7 @@ public class NTGActivity extends Activity
         );
     }
 
-    public View createStoryView(String title, String what, String when, String where)
+    public View createStoryView(String title, String what, String when, String where, String url)
     {
         View view = getLayoutInflater().inflate(R.layout.list_item, null);
         ((TextView) view.findViewById(R.id.story_title)).setText(title);
@@ -48,6 +49,8 @@ public class NTGActivity extends Activity
             "<strong>What:</strong> " + what + "<br/><strong>Where:</strong> " + where + "<strong>When:</strong> " + when
         );
         ((TextView) view.findViewById(R.id.story_meta)).setText(spannable);
+        view.setTag(url);
+        view.setOnClickListener(this);
         return view;
     }
 
@@ -76,7 +79,8 @@ public class NTGActivity extends Activity
                     story.getString("title"),
                     story.getString("summary").substring(0, 50) + "...",
                     story.getString("pub_date").substring(11, 16),
-                    placeName
+                    placeName,
+                    story.getString("link")
                 ));
             }
         }
@@ -95,5 +99,11 @@ public class NTGActivity extends Activity
         }
         cursor.close();
         return objects;
+    }
+
+    @Override
+    public void onClick(View v) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse((String)v.getTag()));
+        startActivity(intent);
     }
 }
