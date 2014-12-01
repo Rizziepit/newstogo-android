@@ -79,7 +79,7 @@ public class NTGService extends IntentService
 
     public static String getClosestPlaceName(JSONArray places, LocationInfo location) throws JSONException
     {
-        if (places.length() == 1) {
+        if (places.length() == 1 || (places.length() > 0 && location == null)) {
             return places.getJSONObject(0).getString("name");
         }
         else {
