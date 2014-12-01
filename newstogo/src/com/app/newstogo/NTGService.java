@@ -34,20 +34,22 @@ public class NTGService extends IntentService
     protected void onHandleIntent(Intent intent)
     {
         LocationInfo latestInfo = new LocationInfo(getBaseContext());
+        latestInfo.lastLat = 40.728333f;
+        latestInfo.lastLong = -73.994167f;
         Log.v(TAG, "Latest location " + latestInfo.toString());
 
         if (latestInfo.lastAccuracy <= RADIUS) {
             try {
                 URL url = getQueryURL(latestInfo);
                 Log.v(TAG, "Query: " + url);
-                /*HttpURLConnection connection = (HttpURLConnection) (getQueryURL(latestInfo).openConnection());
+                HttpURLConnection connection = (HttpURLConnection) (getQueryURL(latestInfo).openConnection());
                 try {
                     InputStream in = new BufferedInputStream(connection.getInputStream());
                     processAPIResponse(in, latestInfo);
                 }
                 catch (Exception e) {Log.e(TAG, e.toString());}
-                finally {connection.disconnect();}*/
-                processAPIResponse(getMockDataStream(), latestInfo);
+                finally {connection.disconnect();}
+                //processAPIResponse(getMockDataStream(), latestInfo);
             }
             catch (Exception e) {Log.e(TAG, e.toString());}
         }
