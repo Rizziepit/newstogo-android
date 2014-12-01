@@ -13,7 +13,8 @@
         android:fontFamily="sans-serif"
         android:scrollHorizontally="false"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp" />
+        android:paddingRight="16dp"
+        android:textColor="@android:color/white" />
     <TextView android:layout_height="wrap_content"
         android:layout_width="fill_parent"
         android:paddingBottom="16dp"
@@ -21,9 +22,9 @@
         android:id="@+id/story_meta"
         android:fontFamily="sans-serif"
         android:text="What: \nWhere: \nWhen:"
-        android:textColor="@android:color/white"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp" />
+        android:paddingRight="16dp"
+        android:textColor="#B3B3B3" />
     <View
         android:layout_height="1dp"
         android:visibility="visible"

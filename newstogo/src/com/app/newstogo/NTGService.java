@@ -77,7 +77,7 @@ public class NTGService extends IntentService
         }
     }
 
-    protected String getClosestPlaceName(JSONArray places, LocationInfo location) throws JSONException
+    public static String getClosestPlaceName(JSONArray places, LocationInfo location) throws JSONException
     {
         if (places.length() == 1) {
             return places.getJSONObject(0).getString("name");
